@@ -13,7 +13,7 @@ $query->execute();
 $query->setFetchMode(PDO::FETCH_ASSOC);
 
 while($row = $query->fetch()){
-	echo "<tr><td><a href=index.php?action=editevent,id=".$row['uid'].">".$row['title']."</a></td><td>".$row['attendeeCount']."</td></tr>";
+	echo "<tr><td><a href=index.php?action=editevent&id=".$row['uid'].">".$row['title']."</a></td><td>".$row['attendeeCount']."</td></tr>";
 }
 ?>
 </table></center>

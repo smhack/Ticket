@@ -13,6 +13,10 @@ switch($action){
 		include('enforcelogon.php');
 		include('addevent.php');
 		break;
+	case 'editevent';
+		include('enforcelogon.php');
+		include('editevent.php');
+		break;
 }
 
 
