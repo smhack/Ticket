@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/jquery-ui-timepicker-addon.css" />
+<link rel="stylesheet" href="/css/jquery-ui-timepicker-addon.css" />
 <script>
 	$(document).ready(function(){
 		$( "#addEvent" ).validate();
