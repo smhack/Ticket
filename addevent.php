@@ -48,7 +48,7 @@ endDateTextBox.datetimepicker({
 	<form class="login" id="addEvent" method="post" action="addeventaction.php">
 	<p>
 		<label for="eventName">Event Name</label>
-		<input id="eventName" name="eventName" type="text" class="required" />
+		<input id="eventName" name="eventName" type="text" class="required" style="width:400px;" />
 	</p>
 	<p>
 		<label for="startDate">Start Time</label>
@@ -60,13 +60,21 @@ endDateTextBox.datetimepicker({
 	</p>
 	<p>
 		<label for="where">Where</label>
-		<input id="where" name="where" type="text" class="required" />
+		<input id="where" name="where" type="text" class="required" style="width:400px;" />
 	</p>
 	<p>
 		<label for="description">Description</label>
-		<textarea id="description" name="description" class="required"></textarea>
+		<textarea id="description" name="description" class="required" style="margin: 2px;width:400px;height:130px;"></textarea>
 	</p>
 	
+	<p>
+		<label for="agenda">Agenda</label>
+		<textarea id="agenda" name="agenda" class="required" style="margin: 2px;width:400px;height:130px;"></textarea>
+	</p>
+	<p>
+		<label for="aboutYou">About You</label>
+		<textarea id="aboutYou" name="aboutYou" class="required" style="margin: 2px;width:400px;height:130px;"></textarea>
+	</p>
 	<p>
 		<input class="submit" type="submit" value="Submit" />
 	</p>

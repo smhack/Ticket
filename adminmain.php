@@ -16,6 +16,8 @@ while($row = $query->fetch()){
 	echo "<tr><td><a href=index.php?action=editevent&id=".$row['uid'].">".$row['title']."</a></td><td>".$row['attendeeCount']."</td></tr>";
 }
 ?>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><a href="index.php?action=addEvent">Add event</a><br/></td></tr>
 </table></center>
 
-<a href="index.php?action=addEvent">Add event</a><br/>
+
