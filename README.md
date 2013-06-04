@@ -6,4 +6,5 @@ This is a PHP based ticketing system that allows us to add, edit, and activate e
 Upon activation of a submitted event a mechanism will send out valid tickets to dues paying members of the space.
 
 == Credit ==
+
 We have implemented the PHP QR Code library which is located here: http://phpqrcode.sourceforge.net/.  Using this library allows us to generate our QR codes that we send out.
