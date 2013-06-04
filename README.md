@@ -10,3 +10,6 @@ Upon activation of a submitted event a mechanism will send out valid tickets to 
 We have implemented the PHP QR Code library which is located here: http://phpqrcode.sourceforge.net/.  Using this library allows us to generate our QR codes that we send out.
 
 We have also implemented the Portable PHP password hashing framework for the backend. http://www.openwall.com/phpass/
+
+== What's Needed ==
+
