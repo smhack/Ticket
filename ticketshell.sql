@@ -27,13 +27,13 @@ CREATE TABLE `Event` (
   `title` varchar(255) DEFAULT NULL,
   `attendeeCount` int(11) DEFAULT NULL,
   `isActive` tinyint(4) DEFAULT NULL,
-  `description` varchar(255) DEFAULT NULL,
+  `description` varchar(5000) DEFAULT NULL,
   `startTime` varchar(100) DEFAULT NULL,
   `endTime` varchar(100) DEFAULT NULL,
   `location` varchar(255) DEFAULT NULL,
   `submitBy` varchar(255) DEFAULT NULL,
-  `agenda` varchar(255) DEFAULT NULL,
-  `aboutTeacher` varchar(255) DEFAULT NULL,
+  `agenda` varchar(5000) DEFAULT NULL,
+  `aboutTeacher` varchar(5000) DEFAULT NULL,
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
