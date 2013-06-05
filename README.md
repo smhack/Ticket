@@ -13,3 +13,14 @@ We have also implemented the Portable PHP password hashing framework for the bac
 
 == What's Needed ==
 
+You will need to include the /ticket/sendticket.php file in your IPN (PayPal) file.  Here is an example of how our ipn is handled.
+
+switch($txn_type){
+case 'web_accept':
+if ($item_number == 'Class'){
+include('./ticket/sendticket.php'); 
+}
+break;
+}
+
+I suggest looking into the class here https://github.com/Quixotix/PHP-PayPal-IP to make your IPN intergration easier.
